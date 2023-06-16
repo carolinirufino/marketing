@@ -1,0 +1,115 @@
+body {
+    background: white;
+}
+
+nav {
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8C52FF;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 100%;
+}
+
+.introducao {
+    background: white;
+    padding: 30px
+}
+
+.titulo-principal {
+    padding: 20px;
+    background: #FCC0C5;
+    margin: auto;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+#objetivo {
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+strong {
+    color: black;
+}
+
+.titulo-conteudo {
+    text-align: center;
+    background: #FCC0C5;
+    color: white;
+}
+
+.estrategias {
+    background: white;
+    padding: 20px;
+}
+.items-estrategias {
+    font-style: normal;
+}
+
+.lista-estategias {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.imagem-estrategias {
+    width: 30%;
+}
+
+.marketing-de-conteudo {
+    background: white;
+    padding: 20px;
+}
+
+.publicidade-online {
+    background: white;
+    padding: 20px;
+}
+
+.mecanismos-de-busca {
+    background: white;
+    padding: 20px;
+}
+
+.marketing-redes-sociais {
+    background: white;
+    padding: 20px;
+}
+
+.email-marketing {
+    background: white;
+    padding: 20px;
+}
+
+.rodape {
+    width: 100%;
+}
+
+.texto-rodape {
+    font-style: italic;
+    background-color: #FCC0C5;
+}

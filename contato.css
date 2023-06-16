@@ -1,0 +1,159 @@
+body {
+    background: white;
+}
+header {
+    background: white;
+    padding: 20px 0;
+}
+
+.logotipo {
+    padding-left: 50px;
+}
+
+.cabeçalho {
+    background: white;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FCC0C5;
+    text-decoration: underline;
+}
+
+.lista-produtos {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.lista-produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: auto;
+    padding: 1px;
+    box-sizing: border-box;
+    border: 2px solid #FCC0C5;
+    border-radius: 20px;
+}
+
+.lista-produtos li:hover {
+    border-color: #8C52FF;
+}
+
+.lista-produtos li:active {
+    border-color: black;
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 35px;
+    color: #8C52FF;
+}
+
+.lista-produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FCC0C5;
+    padding: 10px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+.produto-descricao {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8C52FF;
+    text-align: center;
+}
+
+.texto-rodape {
+    text-align: center;
+    font-weight: bold;
+    color: #FCC0C5;
+    background: url(rodape.png);
+    padding: 50px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #FCC0C5;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #8C52FF
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #FCC0C5;
+    color: black;
+    font-weight: bold;
+}
+
+td, th {
+    border: 2px solid #FCC0C5;
+    padding: 8px 15px ;
+}
